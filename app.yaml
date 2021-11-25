@@ -1,8 +1,7 @@
+env: standard
 runtime: nodejs14
-api_version: 1
-threadsafe: true
-
+service: default
 handlers:
-- url: /.*
+  - url: /.*
     secure: always
     script: auto
